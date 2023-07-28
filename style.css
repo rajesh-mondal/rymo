@@ -111,10 +111,10 @@ button:hover {
         background-color: #fb774b;
     }
 
-    /* body > header > nav > div > button:hover #bar,
+    body > header > nav > div > button:hover #bar,
     body > header > nav > div > button:focus #bar {
         background-color: #fff;
-    } */
+    }
 
     #navbarSupportedContent > ul {
         margin: 1rem;
