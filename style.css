@@ -85,6 +85,49 @@ button:hover {
     transition: 0.3 ease;
 }
 
+/* Mobile Nav */
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+#bar {
+    font-size: 1.5rem;
+    padding: 5px;
+    cursor: pointer;
+    /* font-weight: 500; */
+    transition: 0.3 ease;
+    color: black;
+}
+
+#bar:hover,
+#bar.active {
+    color: #fff;
+}
+
+@media only screen and (max-width: 991px){
+    body > header > nav > div > button:hover,
+    body > header > nav > div > button:focus {
+        background-color: #fb774b;
+    }
+
+    /* body > header > nav > div > button:hover #bar,
+    body > header > nav > div > button:focus #bar {
+        background-color: #fff;
+    } */
+
+    #navbarSupportedContent > ul {
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a {
+        padding: 10px 0;
+    }
+}
+
 /* Hero Section Styles */
 #home {
     background-image: url("img/back.jpg");
