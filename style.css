@@ -111,10 +111,10 @@ button:hover {
         background-color: #fb774b;
     }
 
-    /* body > header > nav > div > button:hover #bar,
+    body > header > nav > div > button:hover #bar,
     body > header > nav > div > button:focus #bar {
         background-color: #fff;
-    } */
+    }
 
     #navbarSupportedContent > ul {
         margin: 1rem;
@@ -145,7 +145,7 @@ button:hover {
     color: coral;
 }
 
-/* Banner Styles */
+/* New Feature Styles */
 #new .one img {
     width: 100%;
     height: 100%;
